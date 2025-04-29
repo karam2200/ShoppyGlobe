@@ -1,0 +1,15 @@
+.cart {
+  max-width: 800px;
+  margin: auto;
+  padding: 24px;
+}
+
+.cart h2 {
+  margin-bottom: 20px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: right;
+}

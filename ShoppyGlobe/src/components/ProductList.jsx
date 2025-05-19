@@ -4,7 +4,7 @@ import useFetch from '../hooks/useFetch';
 import './ProductList.css';
 
 const ProductList = () => {
-  const { data, error } = useFetch('https://dummyjson.com/products');
+  const { data, error } = useFetch('http://localhost:5000/api/products');
   
   if (error) {
     return <div>Error loading products!</div>;
